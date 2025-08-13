@@ -16,12 +16,6 @@ public:
         delete del;
         return head;
 
-
-
-
-
-
-
 //---------------(Optimal)-------------------
         /*if(!head || !head->next) return NULL;
 
