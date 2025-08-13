@@ -1,13 +1,4 @@
-/**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     ListNode *next;
- *     ListNode() : val(0), next(nullptr) {}
- *     ListNode(int x) : val(x), next(nullptr) {}
- *     ListNode(int x, ListNode *next) : val(x), next(next) {}
- * };
- */
+```cpp
 class Solution {
 public:
     ListNode* oddEvenList(ListNode* head) {
@@ -26,6 +17,7 @@ public:
         return head;
     }
 };
-
-LC link :- https://leetcode.com/problems/odd-even-linked-list/
-YT Link :- https://www.youtube.com/watch?v=qf6qp7GzD5Q
+```
+Reference:
+[LeetCode-Problem](https://leetcode.com/problems/odd-even-linked-list/)
+[Strivers-Video](https://www.youtube.com/watch?v=qf6qp7GzD5Q)
