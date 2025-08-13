@@ -19,5 +19,5 @@ public:
 };
 ```
 Reference:
-[LeetCode-Problem](https://leetcode.com/problems/odd-even-linked-list/)
-[Strivers-Video](https://www.youtube.com/watch?v=qf6qp7GzD5Q)
+- [LeetCode-Problem](https://leetcode.com/problems/odd-even-linked-list/)
+- [Strivers-Video](https://www.youtube.com/watch?v=qf6qp7GzD5Q)
