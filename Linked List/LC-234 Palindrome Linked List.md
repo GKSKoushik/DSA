@@ -1,13 +1,4 @@
-/**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     ListNode *next;
- *     ListNode() : val(0), next(nullptr) {}
- *     ListNode(int x) : val(x), next(nullptr) {}
- *     ListNode(int x, ListNode *next) : val(x), next(next) {}
- * };
- */
+```cpp
 class Solution {
 public:
 
@@ -45,7 +36,7 @@ public:
 
 
 
----------------------------------
+//---------------------------------
 //Brute-force
         /*stack<int> st;
         ListNode* temp = head;
@@ -64,6 +55,7 @@ public:
         return true;*/
     }
 };
-
-LC link:- https://leetcode.com/problems/palindrome-linked-list/
-YT link:- https://www.youtube.com/watch?v=lRY_G-u_8jk
+```
+Reference:
+- [LeetCode-Problem](https://leetcode.com/problems/palindrome-linked-list/)
+- [Strivers-Video](https://www.youtube.com/watch?v=lRY_G-u_8jk)
