@@ -20,5 +20,5 @@ public:
 };
 ```
 References:
--[LeetCode - problem](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)
--[Strivers - Video](https://www.youtube.com/watch?v=3kMKYQ2wNIU)
+- [LeetCode - problem](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)
+- [Strivers - Video](https://www.youtube.com/watch?v=3kMKYQ2wNIU)
