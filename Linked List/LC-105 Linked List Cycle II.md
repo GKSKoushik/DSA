@@ -1,13 +1,4 @@
-Floyed's Hare and Tortoise
-
-/**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     ListNode *next;
- *     ListNode(int x) : val(x), next(NULL) {}
- * };
- */
+```cpp
 class Solution {
 public:
     ListNode *detectCycle(ListNode *head) {
@@ -29,3 +20,7 @@ public:
         return nullptr;
     }
 };
+```
+Reference:
+- [LeetCode-Problem](https://leetcode.com/problems/linked-list-cycle-ii/description/)
+- [Strivrs-Video](https://www.youtube.com/watch?v=2Kd0KKmmHFc)
