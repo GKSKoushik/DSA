@@ -1,4 +1,5 @@
 ```cpp
+// Used Merge-Sort
 class Solution {
 public:
     ListNode* midnode(ListNode* node){
