@@ -1,4 +1,4 @@
-
+```cpp
 class Solution {
 public:
     ListNode* removeNthFromEnd(ListNode* head, int n) {
@@ -18,6 +18,6 @@ public:
         return head;
     }
 };
-
+```
 [LeetCode - problem](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)
 [Strivers - Video](https://www.youtube.com/watch?v=3kMKYQ2wNIU)
