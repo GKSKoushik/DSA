@@ -1,27 +1,4 @@
-/*
-Definition of singly linked list:
-struct ListNode
-{
-    int val;
-    ListNode *next;
-    ListNode()
-    {
-        val = 0;
-        next = NULL;
-    }
-    ListNode(int data1)
-    {
-        val = data1;
-        next = NULL;
-    }
-    ListNode(int data1, ListNode *next1)
-    {
-        val = data1;
-        next = next1;
-    }
-};
-*/
-
+```cpp
 class Solution {
 public:
     int lenght(ListNode* slow, ListNode* fast){
@@ -47,3 +24,7 @@ public:
         return 0;
     }
 };
+```
+Reference:
+- [Tuf-Problem](https://takeuforward.org/plus/dsa/problems/length-of-loop-in-ll?tab=editorial)
+- [Striver-Video](https://www.youtube.com/watch?v=I4g1qbkTPus)
