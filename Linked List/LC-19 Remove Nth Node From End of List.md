@@ -1,4 +1,3 @@
-'''c++
 
 class Solution {
 public:
