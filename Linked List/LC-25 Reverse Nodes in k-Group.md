@@ -13,13 +13,13 @@ public:
         }
         return prev;
     }
-    ListNode* findkth(ListNode* rl,int k) {
+    ListNode* findkth(ListNode* temp,int k) {
         k -= 1;
-        while(rl && k > 0){
-            rl = rl -> next;
+        while(temp && k > 0){
+            temp = temp -> next;
             k--;
         }
-        return rl;
+        return temp;
     }
     ListNode* reverseKGroup(ListNode* head, int k) {
         ListNode* temp = head;
