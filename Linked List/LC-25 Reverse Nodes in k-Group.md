@@ -50,7 +50,7 @@ public:
 };
 ```
 Reference:
-- [LeetCode](https://leetcode.com/problems/reverse-nodes-in-k-group/)
+- [LeetCode-Problem](https://leetcode.com/problems/reverse-nodes-in-k-group/)
 - [Striver-Video](https://www.youtube.com/watch?v=lIar1skcQYI)
 
 
