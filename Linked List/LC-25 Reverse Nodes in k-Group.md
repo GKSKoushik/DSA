@@ -48,6 +48,7 @@ public:
         return head;
     }
 };
+```
 Reference:
 - [LeetCode](https://leetcode.com/problems/reverse-nodes-in-k-group/)
 - [Striver-Video](https://www.youtube.com/watch?v=lIar1skcQYI)
