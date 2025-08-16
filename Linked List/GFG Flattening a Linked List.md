@@ -22,7 +22,7 @@ class Solution {
         if(list1) res->bottom = list1;
         else res->bottom = list2;
         
-        return dummy->next;
+        return dummy->bottom;
     }
     Node *flatten(Node *root) {
         // Your code here
