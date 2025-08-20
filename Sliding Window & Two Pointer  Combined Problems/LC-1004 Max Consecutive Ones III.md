@@ -48,5 +48,5 @@ public:
 };
 ```
 Reference:
-- [LeetCode](https://leetcode.com/problems/max-consecutive-ones-iii/submissions/1741556077/)
+- [LeetCode-Problem](https://leetcode.com/problems/max-consecutive-ones-iii/submissions/1741556077/)
 - [Striver-Video](https://www.youtube.com/watch?v=3E4JBHSLpYk)
