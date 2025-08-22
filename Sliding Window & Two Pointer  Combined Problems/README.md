@@ -19,8 +19,8 @@ Algo:
     }
   return maxlen;           
 ```
-This Give time Complexity o(N + N)\
-To reduse it to o(N) we make inner while loop to if condition\
+This Gives time Complexity of O(n + n)\
+To reduse it to O(n) we make inner while loop to if condition\
 Algo:
 ```cpp
   arr = [2,5,1,10,10] , k =14 , arrsize = arr.size();
@@ -28,7 +28,7 @@ Algo:
     while(Right<n)
     {
       sum = sum + arrsize[Right];
-      while(sum>k)
+      if(sum>k)
       {
           sum = sum - arr[Right]
           Left = Left + 1
