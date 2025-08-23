@@ -41,6 +41,8 @@ int kDistinctChars(int k, string &str)
     return maxlen;
 }
 ```
-
+Reference:
+- [Code360-Problem](https://www.naukri.com/code360/problems/distinct-characters_2221410?leftPanelTabValue=PROBLEM)
+- [Striver-Video](https://www.youtube.com/watch?v=teM9ZsVRQyc)
 
 
