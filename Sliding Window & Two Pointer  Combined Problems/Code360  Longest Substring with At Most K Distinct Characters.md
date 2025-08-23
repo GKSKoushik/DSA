@@ -1,4 +1,4 @@
-TC : O(n+n)+log256   SC : O(256) *** Log is due to map
+TC : O(n+n)+log256   SC : O(256) Log is due to map
 ```cpp
 int kDistinctChars(int k, string &str)
 {
