@@ -1,4 +1,4 @@
-Non - itrative method
+Itrative method
 ```cpp
 class Solution {
 public:
