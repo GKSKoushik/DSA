@@ -26,3 +26,33 @@ vector bfs(vector<vector<int>> &adj){
 Referece BFS:
 - [GFG - Problem](https://www.geeksforgeeks.org/problems/bfs-traversal-of-graph/1)
 - [Striver - Video](https://www.youtube.com/watch?v=-tgVpUgsQ5k)
+
+### DFS
+`SC : O(n)` <br>
+`TC : O(n) + O(2E)`
+```cpp
+private:
+  void dfs(int node, vector<vector<int>> &adj, int vis[], vector<int> &ls){
+    vis[node] = 1;
+    ls.push_back(node);
+
+    for(auto it : adj[node]){
+      if(!vis) {
+        dfs(it, adj, vis, ls);
+      }
+    }
+  }
+public:
+  vector<int> DFS(vector<vector<int>> &adj){
+    int V = adj.size();
+    int vis[V] = {0};
+    int start = 0;
+    vector<int> ls;
+    dfs(start, adj, vis, ls);
+
+    return ls;
+  }
+```
+Reference:
+- [GFG - Problem](https://www.geeksforgeeks.org/problems/depth-first-traversal-for-a-graph/1)
+- [Striver - Video](https://www.youtube.com/watch?v=Qzf1a--rhp8)
