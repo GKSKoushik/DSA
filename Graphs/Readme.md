@@ -1,5 +1,5 @@
 ### BFS
-SC : O(n) <br>
+`SC : O(n) <br>`
 `TC : O(n) + O(2E)     *E for edges`
 ```cpp
 vector bfs(vector<vector<int>> &adj){
