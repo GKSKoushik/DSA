@@ -23,3 +23,6 @@ vector bfs(vector<vector<int>> &adj){
   }
 }
 ```
+Referece BFS:
+- [GFG - Problem](https://www.geeksforgeeks.org/problems/bfs-traversal-of-graph/1)
+- [Striver - Video](https://www.youtube.com/watch?v=-tgVpUgsQ5k)
