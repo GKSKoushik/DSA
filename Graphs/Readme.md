@@ -1,4 +1,6 @@
-# BFS
+### BFS
+SC : O(n)
+TC : O(n) + O(2E) --- E for edges   
 ```cpp
 vector bfs(vector<vector<int>> &adj){
   int vis[adj.size()] = {0};
