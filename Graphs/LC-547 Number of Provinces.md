@@ -1,5 +1,4 @@
-`SC : O(n)` <br>
-`TC : O(n) + O(n)`
+`SC : O(n)` `TC : O(n) + O(n)`
 ```cpp
 class Solution {
 private:
