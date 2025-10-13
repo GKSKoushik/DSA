@@ -1,6 +1,6 @@
 
 `SC : O(n*l)` <span style="color: orange;"><i>Typically O(n)</i></span> <br>
-`TC : O(n*l*26) ` <span style="color: orange;"><i>n = number of words in word list, l = length of each word</i></span> 
+`TC : O(n*l*26) ` <span style="color: orange;"><i>n = number of words in word list, l = length of each word</i></span>
 ```cpp
 class Solution {
 public:
