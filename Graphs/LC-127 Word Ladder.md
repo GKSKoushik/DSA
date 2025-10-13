@@ -1,5 +1,6 @@
-`SC : O(n*l)`  Tipically O(n) <br>
-`TC : O(n*l*26) `<!-- n = number of words in word list, l = length of each word --> 
+
+`SC : O(n*l)` <span style="color: orange;">*Typically O(n)*</span> <br>
+`TC : O(n*l*26) ` <span style="color: orange;">*n = number of words in word list, l = length of each word*</span> 
 ```cpp
 class Solution {
 public:
