@@ -1,4 +1,4 @@
-`SC : O(n*l)` <!-- Tipically O(n)--> <br>
+`SC : O(n*l)`  Tipically O(n) <br>
 `TC : O(n*l*26) `<!-- n = number of words in word list, l = length of each word --> 
 ```cpp
 class Solution {
