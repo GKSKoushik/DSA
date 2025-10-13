@@ -35,5 +35,3 @@ public:
 Reference:
 - [LeetCode-Problem](https://leetcode.com/problems/word-ladder/)
 - [Striver-Video](https://www.youtube.com/watch?v=tRPda0rcf8E)
-- [LeetCode-Problem](https://leetcode.com/problems/word-ladder/)
-- [Striver-Video](https://www.youtube.com/watch?v=tRPda0rcf8E)
