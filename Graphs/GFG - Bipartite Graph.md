@@ -13,7 +13,6 @@ private:
         }
         return true;
     }
-    
 public:
     bool isBipartite(int V, vector<vector<int>> &edges) {
         vector<vector<int>> adj(V);
@@ -23,10 +22,8 @@ public:
             adj[u].push_back(v);
             adj[v].push_back(u);
         }
-        
 
         vector<int> color(V, -1);
-        
 
         for(int i = 0; i < V; i++){
             if(color[i] == -1){
