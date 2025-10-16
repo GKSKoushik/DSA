@@ -39,6 +39,46 @@ class Solution {
     }
 };
 ```
+Personalized Code for reducing Space Complexity
+`SC : O(n)` `TC : O(v+E)`
+```cpp
+class Solution {
+  private:
+  bool dfs(int node, vector<int> &vis, vector<vector<int>> &adj){
+      vis[node] = 1;
+      
+      for(auto it : adj[node]){
+          if(!vis[it]){
+              if(dfs(it, vis, adj) == true) return true;
+          }
+          else if(vis[it] == 1){
+              return true;
+          }
+      }
+      vis[node] = 2;
+      return false;
+  }
+  public:
+    bool isCyclic(int V, vector<vector<int>> &edges) {
+        // code here
+        vector<vector<int>> adj(V);
+        for(auto &edge : edges){
+            int u = edge[0];
+            int v = edge[1];
+            
+            adj[u].push_back(v);
+        }
+        vector<int> vis(V,0);
+        
+        for(int i = 0; i < V; i++ ){
+            if(!vis[i]){
+                if(dfs(i, vis, adj) == true) return true;
+            }
+        }
+        return false;
+    }
+};
+```
 Reference:
 - [GFG-Problem](https://www.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1)
 - [Striver-Video](https://www.youtube.com/watch?v=9twcmtQj4DU)
