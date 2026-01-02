@@ -1,3 +1,6 @@
+### Memoization
+- `SC : O(n) + O(n)`
+- `TC : O(n)`
 ```cpp
 class Solution {
 public:
