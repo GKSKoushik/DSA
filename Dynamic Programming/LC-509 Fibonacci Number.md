@@ -13,5 +13,5 @@ public:
 };
 ```
 Reference:
- -[LeetCode-Problem](https://leetcode.com/problems/fibonacci-number/description/)
- -[Striver-Video](http://youtube.com/watch?v=tyB0ztf0DNY)
+ - [LeetCode-Problem](https://leetcode.com/problems/fibonacci-number/description/)
+ - [Striver-Video](http://youtube.com/watch?v=tyB0ztf0DNY)
