@@ -21,7 +21,7 @@ public:
         return f(nums,goal)-f(nums,goal-1);
     }
 };
-```cpp
+```
 Reference:
 - [LeetCode-Problem](https://leetcode.com/problems/binary-subarrays-with-sum/)
 - [Striver-Video](https://www.youtube.com/watch?v=XnMdNUkX6VM)
