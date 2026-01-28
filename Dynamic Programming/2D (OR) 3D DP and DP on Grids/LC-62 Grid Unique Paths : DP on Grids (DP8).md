@@ -1,5 +1,5 @@
--`TC : O(n)`
--`SC : O(n)`
+- `TC : O(n)`
+- `SC : O(n)`
 ```cpp
 class Solution {
 public:
