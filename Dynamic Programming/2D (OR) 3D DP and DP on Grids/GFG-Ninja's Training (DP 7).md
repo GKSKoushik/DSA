@@ -46,7 +46,7 @@ class Solution {
 - Each time we return we check with the dp array and return
 
 ### Reference:
-[Geeks-for-Geeks-Problem](https://www.geeksforgeeks.org/problems/geeks-training/1)
-[Striver-Video](https://www.youtube.com/watch?v=AE39gJYuRog)
+- [Geeks-for-Geeks-Problem](https://www.geeksforgeeks.org/problems/geeks-training/1)
+- [Striver-Video](https://www.youtube.com/watch?v=AE39gJYuRog)
 
 
