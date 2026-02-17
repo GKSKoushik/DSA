@@ -21,7 +21,7 @@ public:
     }
 };
 ```
-### Explaination:  Creations(array(ans), pass(root), we pass the level of which is 0)
+### Explaination:  Recurssion Call(vector(ans), pass(root), we pass the level which is 0)
 - Whenever we reach null we just return
 - We always check if level == size of array so that we push the node -> value one one while we keep increment the level same level will not equal to the size of array
 - we goto right then left it because we want right side view if we want left side we we do alternate
