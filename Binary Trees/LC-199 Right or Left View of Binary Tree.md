@@ -23,8 +23,9 @@ public:
 ```
 ### Explaination:  Recurssion Call(vector(ans), pass(root), we pass the level which is 0)
 - Whenever we reach null we just return
-- We always check if level == size of array so that we push the node -> value one one while we keep increment the level same level will not equal to the size of array
-- we goto right then left it because we want right side view if we want left side we we do alternate
+- We always check if level == size of array so that we push the {node -> value} to the ans(vector)
+- While we keep incrementing the level, array size and level never gets equal more than once on same level, this helps to skip other value on same level
+- we goto right then left it because we want right side view if we want left side we we do alternate, We always increment level whenever we got right or left
 ### Reference:
 - [LeetCode-Problem](https://leetcode.com/problems/binary-tree-right-side-view/)
 - [Striver-Video](https://www.youtube.com/watch?v=KV4mRzTjlAk&t=53s)
