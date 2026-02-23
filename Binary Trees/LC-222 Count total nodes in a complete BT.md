@@ -18,8 +18,8 @@ public:
 ```
 ### Explaination
  - Go to the every node call inorder/preorder/postorder and count nodes
-- **TC - ** O(log<sup>2</sup> n)
-- `SC - O(h)`
+- TC -  O(log<sup>2</sup> n)
+- SC - O(h)
 ```cpp
 class Solution {
 public:
