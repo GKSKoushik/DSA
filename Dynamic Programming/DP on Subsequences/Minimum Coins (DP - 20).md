@@ -1,6 +1,6 @@
 ### Memoization
-- TC : O(n * T)
-- SC : O(n * T) + O(T)
+- TC : O(n * amount)
+- SC : O(n * amount) + O(amount)
 ```cpp
 class Solution {
 public:
@@ -28,8 +28,8 @@ public:
 };
 ```
 ### Tabulation
-- TC : O(n * T);
-- SC : O(n * T);
+- TC : O(n * amount);
+- SC : O(n * amount);
 #### 2D dp approach
 ```cpp
 class Solution {
@@ -57,3 +57,42 @@ public:
     }
 }; 
 ```
+- TC : O(n * amount)
+- SC : O(amount)
+#### 1D dp approach
+```cpp
+class Solution {
+public:
+    int coinChange(vector<int>& coins, int amount) {
+        int n = coins.size();
+        vector<int> prev(amount+1,0), curr(amount+1, 0);
+        for(int T = 0; T <= amount; T++){
+            if(T % coins[0] == 0) prev[T] = T / coins[0];
+            else prev[T] = 1e9;
+        }
+        for(int i = 1; i < n; i++){
+            for(int T = 0; T <= amount; T++){
+                int nottake = 0 + prev[T];
+                int take = 1e9;
+                if(coins[i] <= T){
+                    take = 1 + curr[T - coins[i]];
+                }
+                curr[T] = min(take, nottake); 
+            }
+            prev = curr;
+        }
+        int ans = prev[amount];
+        if(ans >= 1e9) return -1;
+        return ans;
+    }
+};
+```
+### Question:
+- There are array of coins and a target amount, we need to use minimum number of coins to get target amount, we can use same coins multiple times
+### Approach:
+- We go and check all possibilities using DP like take and not-take of coins
+- If we take we reduce target amount with taken coins index as multiple coins are allowed we stay at same index for next time
+- Once we check then we go to take minimum of take and not-take
+### Reference:
+- (LeetCode-Problem)[https://leetcode.com/problems/coin-change/]
+- (Striver-Video)[https://www.youtube.com/watch?v=myPeWb3Y68A]
