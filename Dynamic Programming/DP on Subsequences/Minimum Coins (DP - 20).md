@@ -30,7 +30,7 @@ public:
 ### Tabulation
 - TC : O(n * T);
 - SC : O(n * T);
-## 2D dp approach
+#### 2D dp approach
 ```cpp
 class Solution {
 public:
