@@ -94,5 +94,5 @@ public:
 - If we take we reduce target amount with taken coins index as multiple coins are allowed we stay at same index for next time
 - Once we check then we go to take minimum of take and not-take
 ### Reference:
-- (LeetCode-Problem)[https://leetcode.com/problems/coin-change/]
-- (Striver-Video)[https://www.youtube.com/watch?v=myPeWb3Y68A]
+- [LeetCode-Problem](https://leetcode.com/problems/coin-change/)
+- [Striver-Video](https://www.youtube.com/watch?v=myPeWb3Y68A)
