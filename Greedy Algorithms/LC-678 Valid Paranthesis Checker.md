@@ -27,4 +27,4 @@ public:
 ```
 ### Explaination:
 - We always keep track of min and max by anytime if we go max < 0 then we are false as string may look like ")("
-- At the end min should always == 0 as we keep adding * max may increase but when min < 0  we are making m = 0
+- At the end min should always == 0 as we keep adding * max may increase but when min < 0  we are making min = 0
