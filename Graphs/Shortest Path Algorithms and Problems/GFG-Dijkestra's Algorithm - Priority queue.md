@@ -1,5 +1,5 @@
-TC : O(E logE)
-SC : O(V + E)
+- TC : O(E logE)
+- SC : O(V + E)
 ```cpp
     class Solution {
       public:
