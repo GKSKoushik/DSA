@@ -39,7 +39,7 @@ public:
 ```
 ### Question : (For better understanding goto Leetcode or Striver Video as this question feels bit tipcal to expalain here)
 - We are give a matrix of numbers we need to find minimum path with minimum effort to reach destination
-- So there we be multiple paths to reach destination we need to find a path with minimum effort
+- So there will be multiple paths to reach destination we need to find a path with minimum effort
 - We can travel in only 4 directions up, down, left, right diagonals are not allowed
 ### Explaination :
 - So here we take a priority queue to store the effort and the row and col , we use a 2D array to store the effort
